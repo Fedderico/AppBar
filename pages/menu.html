@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Web - Menú</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html"><strong>KAIZEN - BAR</strong></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Menú</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Menu Main Section -->
+    <section class="menu-main py-5">
+        <div class="container text-center">
+            <h1 class="mb-4">Nuestro Menú</h1>
+            <div class="row">
+                <!-- Desayunos/Meriendas Button -->
+                <div class="col-md-6 mb-4">
+                    <a href="/pages/desayunos.html" class="btn btn-menu btn-lg">Desayunos / Meriendas</a>
+                </div>
+                <!-- Almuerzo/Cena Button -->
+                <div class="col-md-6 mb-4">
+                    <a href="/pages/almuerzo-cena.html" class="btn btn-menu btn-lg">Almuerzo / Cena</a>
+                </div>
+            </div>
+            <!-- Quick Order Section -->
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center mb-4">Carta Rápida</h2>
+                    <div class="list-group">
+                        <!-- Item 1 -->
+                        <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                            Gaseosa
+                            <span class="badge bg-secondary">$3.00</span>
+                        </a>
+                        <!-- Item 2 -->
+                        <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                            Hamburguesa
+                            <span class="badge bg-secondary">$8.00</span>
+                        </a>
+                        <!-- Item 3 -->
+                        <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                            Papas Fritas
+                            <span class="badge bg-secondary">$4.00</span>
+                        </a>
+                        <!-- Item 4 -->
+                        <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                            Helado
+                            <span class="badge bg-secondary">$5.00</span>
+                        </a>
+                        <!-- Item 5 -->
+                        <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                            Postre
+                            <span class="badge bg-secondary">$6.00</span>
+                        </a>
+                        <!-- Add more items as needed -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
