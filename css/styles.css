@@ -4,6 +4,10 @@ body {
     color: #4E342E; /* Marrón Oscuro */
 }
 
+.navbar-bg-beige{
+    background-color: #F5F5DC; /* Beige Claro */;
+}
+
 .navbar-brand {
     font-weight: 600;
     color: #4E342E !important; /* Marrón Oscuro */
@@ -20,7 +24,7 @@ body {
 
  .hero-section {
     height: 100vh;
-    background-image: url('/images/5.jpg'); 
+    background-image: url('/images/3.jpg'); 
     background-size: cover;
     background-position: center;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -107,7 +111,7 @@ body {
 
 .card-img-top {
     height: 200px;
-    object-fit: cover;
+    object-fit:cover;
 }
 
 .card-title {
@@ -145,9 +149,12 @@ body {
 
 .btn-menu {
     background-color: #8D6E63; /* Marrón Medio */
+    width: 10rem;
+    height: 5rem;
     border-color: #8D6E63;
     color: #FFFDE7; /* Color del texto */
     transition: background-color 0.3s, border-color 0.3s;
+
 }
 
 .btn-menu:hover {
