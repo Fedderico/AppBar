@@ -99,9 +99,10 @@ body {
 }
 .carta-rapida{
     color: #4E342E; /* Marrón Oscuro */
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 30px;
-    font-weight: 600;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
 }
 
 .card {
